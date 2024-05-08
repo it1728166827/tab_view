@@ -21,7 +21,7 @@ struct ContentView: View {
 
 struct MainTabView: View {
 
-    @State private var selectedTab = 0
+    @State private var selectedTab = 1
     @State private var lastSelectedTab = 1  // 存储最后一个被选中的Tab
     @State private var showActionSheet = false
     
@@ -175,7 +175,7 @@ struct HomeView: View {
         }
         .ignoresSafeArea(edges: .bottom)  // 确保ScrollView撑满整个Tab，包括安全区域
         //.background(Color.red) 这一条不能加，否则底部向上拉的时候会出现红色
-        .padding(.top, 1)  // 如果需要，还可以在这里调整padding
+        .padding(.top, 1)  // 如果需要，还可以在这里调整padding，为什么？？
     }
 }
 struct SearchView: View {
