@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  tab_view
 //
-//  Created by shu yanping on 2024/5/8.
+//  Created by shu yanping on 2024/5/8. 基本的UI构建
 //
 
 import SwiftUI
