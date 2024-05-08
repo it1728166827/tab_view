@@ -30,7 +30,8 @@ struct MainTabView: View {
             TabView(selection: $selectedTab) {
                 HomeView()
                     .tabItem {
-                        Label("Tab 1", systemImage: "list.dash")
+                        Label("主页", systemImage: "list.dash")
+                            .font(.system(size: 80))
                     }
                     .tag(0)
 
